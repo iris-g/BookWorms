@@ -8,7 +8,7 @@ from pymongo import MongoClient
 from flask_cors import CORS
 
 app = Flask(__name__)
-app.secret_key = 'KNEsWYghRu'  # Change this!
+app.secret_key = '*****'  # Change this!
 CORS(app)
 login_manager = LoginManager()
 login_manager.init_app(app)
